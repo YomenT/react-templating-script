@@ -1,0 +1,8 @@
+[Unit]
+Description=Automatically format js files with function component code
+
+[Service]
+ExecStart=/home/yomen/Documents/BashScripts/ReactComponents.sh
+
+[Install]
+WantedBy=default.target
